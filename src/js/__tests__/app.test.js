@@ -23,7 +23,7 @@ test('tests', () => {
       },
     ],
   };
-  const findID = getCharecter(character,8);
+  const findID = getCharecter(character,9);
   const result = {
     id: 9,
     name: "Нокаутирующий удар",
