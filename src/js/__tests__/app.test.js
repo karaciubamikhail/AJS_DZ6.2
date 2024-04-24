@@ -30,5 +30,5 @@ test('tests', () => {
     icon: "http://...",
     description: "Описание засекречено",
   }
-  expect(findID).toBe(result);
+  expect(findID).toEqual(result);
 });
