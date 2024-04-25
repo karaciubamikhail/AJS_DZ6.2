@@ -23,12 +23,12 @@ test('tests', () => {
       },
     ],
   };
-  const findID = getCharecter(character,9);
+  const findID = getCharecter(character,8);
   const result = {
-    id: 9,
-    name: "Нокаутирующий удар",
+    id: 8,
+    name: "Двойной выстрел",
     icon: "http://...",
-    description: "Описание засекречено",
+    description: "Двойной выстрел наносит двойной урон",
   }
   expect(findID).toEqual(result);
 });
